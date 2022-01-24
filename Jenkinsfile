@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Probar') {
             steps {
-                sh ' wget http://localhost:8080 '
+                sh ' wget http://localhost:81 '
             }
         }
         
